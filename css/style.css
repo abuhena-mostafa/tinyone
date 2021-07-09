@@ -1,0 +1,232 @@
+/*...................font integration start..................*/
+
+@font-face{
+    font-family:pTsans-regular ;
+    src: url(../fonts/PTN57F.ttf);
+}
+@font-face{
+    font-family:pTsans-bold ;
+    src: url(../fonts/PTS75F.ttf);
+}
+/*...................font integration end..................*/
+
+body{
+
+margin: 0;
+
+padding: 0;
+
+/* font-family: pTsans-regular; */
+
+font-size: 16px;
+
+font-weight: 400;
+
+/* color: #898989; */
+}
+
+/*...................header start..................*/
+header{
+
+background-color: #FCDB00;
+}
+
+.container{
+
+margin: 0 auto;
+
+padding: 40px 0;
+
+width: 80%;
+}
+
+.content{
+
+overflow: hidden;
+
+/* background-color: yellow; */
+}
+.logo{
+    padding-top: 10px;
+    width: 15%;
+    float: left;
+}
+.logo a{}
+.logo a img{}
+
+.menu{width: 50%;float: right;}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    margin: 0 35px;
+    font-family: 'pTsans-bold';
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    
+}
+
+/*...................header end..................*/
+/*...................banner start..................*/
+
+.banner{
+    background-color: #;
+    background-color: #FCDB00;
+}
+.first_wrapper{
+    /* text-align: center; */
+}
+.second_wrapper{
+    overflow: hidden;
+}
+.content1{
+    width: 35%;
+    float: left;
+}
+.content1 h1{}
+.title{
+    font-family: pTsans-bold;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+}
+.content1 p{}
+.simple{
+    font-family: pTsans-regular;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+.light{
+    font-family: pTsans-regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding: 0 5px;
+}
+.content1 p{}
+.images{}
+.images ul{
+    float: left;
+    margin-left: -60px;
+}
+.images ul li{
+    list-style: none;
+    float: left;
+}
+.images ul li a{
+    margin: 0 20px;
+    display: inline-block;
+}
+.images ul li a img{}
+.phone{
+    margin-right: -73px;
+    width: 45%;
+    float: right;
+}
+.phone img{}
+.dot{
+    text-align: center;
+    padding-top: 50px;
+}
+.dot img{}
+
+
+
+
+/*...................banner end..................*/
+
+/*...................feature start..................*/
+
+.feature{
+
+}
+.f{}
+.feature_con{
+        margin: 0 auto;
+       width: 65%;
+       text-align: center;
+}
+.feature_con h1{}
+.feature_con p{}
+
+/*...................feature end..................*/
+
+
+
+/*...................feature content start..................*/
+
+.f_content{}
+
+.fc_content1{
+    
+overflow: hidden;
+}
+.single{
+
+}
+.single {
+    margin: 0 20px;
+    width: 28%;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 30px;
+
+}
+
+.fc_img{
+   
+padding-top: 20px;
+   
+width: 15%;
+   
+float: left;
+}
+.fc_img img{
+  
+}
+.fc_hp{
+    width: 75%;
+    float: right;
+}
+.fc_hp h2{
+
+}
+.title1{
+    margin: 0;
+    font-family: 'pTsans-regular';
+    font-size: 27px;
+    font-weight: 500;
+}
+.fc_hp p{}
+
+
+
+
+
+
+
+/*...................feature content end..................*/
+.keep{
+
+background-color: black;
+
+}
+.yellow{
+    
+    color: #fcdb00;
+}
+.k_p{
+    color: #898989;
+}
