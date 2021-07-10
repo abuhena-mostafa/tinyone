@@ -35,7 +35,7 @@ background-color: #FCDB00;
 
 margin: 0 auto;
 
-padding: 40px 0;
+padding: 30px 0;
 
 width: 80%;
 }
@@ -155,6 +155,7 @@ overflow: hidden;
 .f{}
 .feature_con{
         margin: 0 auto;
+        padding-top: 40px;
        width: 65%;
        text-align: center;
 }
@@ -167,7 +168,9 @@ overflow: hidden;
 
 /*...................feature content start..................*/
 
-.f_content{}
+.f_content{
+    padding-bottom: 40px;
+}
 
 .fc_content1{
     
@@ -214,10 +217,10 @@ float: left;
 
 
 
-
-
-
 /*...................feature content end..................*/
+
+
+/*...................keep section start..................*/
 .keep{
 
 background-color: black;
@@ -230,3 +233,97 @@ background-color: black;
 .k_p{
     color: #898989;
 }
+.form{
+
+margin: 0 auto;
+
+width: 70%;
+
+text-align: center;
+
+padding-top: 15px;
+}
+
+.c_form{}
+
+.c_form input{
+    width: 75%;
+    height: 32px;
+}
+
+.c_form button{
+    margin-left: 10px;
+    width: 16%;
+    height: 40px;
+    background-color: #fcdb00;
+    border-radius: 5px;
+}
+
+.b_s{
+         
+font-family: pTsans-bold;
+         
+font-size: 16px;
+         
+font-weight: 600;
+         
+color: black;
+}
+
+.k_img{
+    margin: 0 auto;
+    width: 40%;
+    padding: 50px 0;
+}
+.k_img ul{
+    margin: 0;
+}
+.k_img ul li{
+    margin: 0 18px;
+    /* padding: 50px 0; */
+    list-style: none;
+    float: left;
+}
+.k_img ul li a{
+    display: inline-block;
+}
+/*...................keep section end..................*/
+/*...................footer start..................*/
+
+footer{
+    background-color:black;
+
+}
+.f_sec{
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.f_single{
+
+    width: 20%;
+    float: left;
+}
+.f_single p{
+      padding: 0 5px;
+}
+.f_single address span{}
+.f_single ul{}
+.f_single ul{}
+.f_single ul li{
+    list-style: none;
+}
+.f_single ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.f-text{
+    color: #ffffff;
+    padding: 0 0;
+}
+.f_single ul li:last-child a{
+    margin-right: 0;
+}
+
+
+/*...................footer end..................*/
+
